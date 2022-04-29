@@ -1,0 +1,174 @@
+@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@100&family=Domine&family=Inconsolata:wght@600&family=Roboto+Slab:wght@100&family=Work+Sans:ital,wght@1,100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@100&family=Domine&family=Inconsolata:wght@600&family=Roboto+Slab:wght@100&family=Work+Sans:ital,wght@1,100&display=swap');
+body{
+    background-color:rgb(136, 176, 75);
+
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    font-family: 'Be Vietnam Pro', sans-serif;
+}
+nav ul{
+    display: flex;
+    list-style-type:none;
+    height: 60px;
+    background-color:rgb(26, 23, 23);
+    align-items: center;
+    color: white;
+    font-weight: bolder;
+    
+}
+.logo img{
+    width:55px;
+    height: 60px;
+    margin: 0px 15px;
+}
+.logo{
+    display: flex;
+    align-items: center;
+    font-weight: bolder;
+    font-size: 1.3rem;
+}
+nav ul li{
+    padding: 0px 30px;
+}
+.bottom{
+    position:sticky;
+    height: 90px;
+    bottom: 0;
+    background-color:rgb(195, 68, 122) ;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+}
+.container{
+    min-height: 73vh;
+    background-color: cornflowerblue;
+    color: black;
+    display :flex;
+    width: 75vw;
+    margin: 23px auto;
+    border-radius: 12px;
+    padding: 20px;
+    background-image: url("newiamge.jpg");
+    background-size: 1000px 1000px;
+    background-repeat: no-repeat;
+    border-style: solid;
+    border-width: 3px;
+    border-color: rgb(87, 47, 87);
+
+
+}
+#progressbar{
+    width: 80vw;
+    cursor: pointer;
+
+}
+.icons{
+  margin-top: 14px;
+}
+.icons i{
+    cursor: pointer;
+}
+.songitem{
+    height: 50px;
+    display: flex;
+    background-color: white;
+    width: 100%;
+    margin: 12px 0px;
+    justify-content:space-between ;
+    align-items: center;
+    border-radius: 18px;
+    border-style: solid;
+    border-color: turquoise;
+    border-width:3px;
+}
+.songitem img{
+  width: 43px;
+  margin: 0px 15px;
+  border-radius: 18px;
+}
+.time{
+    margin: 0px 15px;
+}
+.time i{
+    margin: 0px 15px;
+    cursor: pointer;
+}
+.songitemcontainer{
+    margin-top: 74px;
+}
+.songinfo{
+    position: absolute;
+    left:10vw;
+    margin: 23px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bolder;
+}
+.songinfo img{
+    opacity: 0;
+    transition: opacity 0.5s ease-in;
+    margin: 0px 23px;
+}
+@media only screen and (max-width: 600px) {
+    body {
+      background-color: rgb(18, 98, 124);
+    }
+    nav ul{
+        background-color: #7FCDCD;
+    }
+    .bottom{
+        background-color:rgb(155, 35, 53);
+    
+    }
+}
+.bottomposter{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+.bottomposter img{
+    opacity: 0;
+    width: 70px;
+    margin: 0px 15px;
+    border-radius: 22px;
+    position: absolute;
+    right: 10vw;
+    margin-bottom: 50px;
+    transition:opacity 0.5s ease-in;
+    
+}
+#timeduration{
+    opacity:0;
+}
+.developer{
+    display: flex;
+    flex-direction: column;
+    position:inherit;
+    right: 20vw;
+
+
+}
+.developerimage{
+    display: flex;
+    flex-direction: column;
+    position: inherit;
+    right: 0;
+
+}
+.developer img{
+     width:55px;
+     border-radius:30px ;
+}
+.developerimage img{
+    width:55px;
+    height: 45px;
+    border-radius: 30px;
+}
